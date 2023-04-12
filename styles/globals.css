@@ -1,0 +1,17 @@
+:root {
+  --background: #000000;
+  --cyan-dark: #146C94;
+  --cyan-light: #19A7CE;
+  --red-dark: #CD0404;
+  --red-light: #FF0032;
+  --foreground: #F6F1F1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
