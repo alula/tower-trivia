@@ -44,6 +44,13 @@ export default function Home() {
 			<main className={styles.main}>
 				<h1>Tower Trivia Search</h1>
 				<p>Start typing the question to show results.</p>
+				<p>
+					Data is provided by OpenTDB, and is licensed under the
+					Creative Commons Attribution-ShareAlike 4.0 International
+					License.
+					<br />
+					<a href="https://opentdb.com/">https://opentdb.com/</a>
+				</p>
 				<input
 					type="text"
 					className={styles.search}
